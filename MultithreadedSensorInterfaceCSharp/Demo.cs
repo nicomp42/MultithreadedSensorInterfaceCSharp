@@ -9,8 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MultithreadedSensorInterfaceCSharp {
-    class Program {
+    class Demo {
         static void Main(string[] args) {
+
         }
     }
 }
