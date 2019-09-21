@@ -15,6 +15,8 @@ namespace SensorNamespace {
 
         private void ThreadStart() {
             while (true) {
+                // The sensor reads a value from the real world and converts it to a double. 
+                // We would need the unit of measure from the sensor manufacturer.
                 float value = (float)(new Random()).NextDouble();
                 sensorInterface.Update(value);
                 Thread.Sleep(500);  // A nice pause because analog sensors are slow.
